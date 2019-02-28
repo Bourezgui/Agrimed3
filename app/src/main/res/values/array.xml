@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="villes">
+        <item>client1</item>
+        <item>client2</item>
+        <item>client2</item>
+        <item>client3</item>
+        <item>client4</item>
+
+    </string-array>
+
+
+    <string-array name="article">
+        <item>ACC0001 </item>
+        <item>ALUMSHEET</item>
+        <item>APPLEWATCHSP</item>
+        <item>article4</item>
+        <item>article5</item>
+
+    </string-array>
+
+    <string-array name="unite">
+        <item>UN </item>
+        <item>PAL</item>
+        <item>CAR</item>
+
+    </string-array>
+
+
+
+
+
+</resources>

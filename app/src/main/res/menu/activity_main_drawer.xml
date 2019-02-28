@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Nouvelle Commande" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="Liste Commande" />
+        <item
+            android:id="@+id/nav_ageence"
+            android:icon="@drawable/ic_assignment_returned_black_18dp"
+            android:title="Synchronisation " />
+    </group>
+
+    <item android:title="Autre"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/apropos"
+                android:title="A propos" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="Déconnexion" />
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

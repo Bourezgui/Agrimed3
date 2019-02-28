@@ -1,0 +1,173 @@
+<HorizontalScrollView android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/conn"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="120dp"
+        android:visibility="visible"
+
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/valid"
+            android:layout_width="300dp"
+
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/ic_search"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content"
+            android:text="Commande Validée"
+            />
+
+        <Button
+            android:id="@+id/attente"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/holo_red_light"
+            android:drawableLeft="@drawable/ic_search"
+
+            android:layout_width="300dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content"
+            android:text="Commande en attente"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/off"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+
+
+        <EditText android:id="@+id/inputSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Recherche Commande.."
+            android:inputType="textVisiblePassword"/>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="@android:color/darker_gray" >
+
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:layout_marginLeft="5dp"
+
+                    android:text="N° Commande"
+                    android:textColor="#ffffff" >
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nom Client"
+                    android:textColor="#ffffff" >
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Etat du commande"
+                    android:textColor="#ffffff" >
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ListView
+                android:id="@+id/listecommande1"
+                android:layout_width="match_parent"
+                android:dividerHeight="1dp"
+                android:footerDividersEnabled="true"
+                android:divider="@color/colorPrimary"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</HorizontalScrollView>
+
+
+
+
+
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+

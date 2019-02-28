@@ -1,0 +1,36 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="170dp"
+
+    android:layout_alignParentEnd="true"
+    android:layout_marginTop="280dp"
+    android:id="@+id/linearLayout2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+    </LinearLayout>
+
+
+
+
+
+
+
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Connecter"
+
+    android:id="@+id/signin"
+    android:backgroundTint="#7A7B7A"
+    android:textColor="#fff"
+    />
+
+
+
+</LinearLayout>
